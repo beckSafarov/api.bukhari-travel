@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tours_pl",
+  "info": {
+    "singularName": "tours",
+    "pluralName": "tours-pl",
+    "displayName": "Tours"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

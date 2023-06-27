@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_advantages_pl",
+  "info": {
+    "singularName": "our-advantages",
+    "pluralName": "our-advantages-pl",
+    "displayName": "Our Advantages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "customField",
+      "customField": "plugin::react-icons.icon"
+    }
+  }
+}
