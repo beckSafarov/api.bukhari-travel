@@ -1,0 +1,59 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home-Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "landingTitle": {
+      "type": "string"
+    },
+    "landingBackgroundImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "landingSubtitle": {
+      "type": "text"
+    },
+    "AboutUsTitle": {
+      "type": "string"
+    },
+    "AboutUsBody": {
+      "type": "text"
+    },
+    "AboutUsImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "servicesTitle": {
+      "type": "string"
+    },
+    "servicesBody": {
+      "type": "text"
+    },
+    "FooterDescription": {
+      "type": "text"
+    },
+    "pageTitle": {
+      "type": "string"
+    }
+  }
+}
