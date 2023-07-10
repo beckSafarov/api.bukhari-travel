@@ -19,4 +19,5 @@ module.exports = ({ env }) => ({
     },
   },
   "react-icons": true,
+  "strapi-advanced-uuid": true,
 });
